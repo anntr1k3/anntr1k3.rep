@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Видеосервис</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="log">
+                    <img class="logo_img"src="img/sign.png" alt="logo">
+                    <p class="logo_p">Видеосервис</p>
+                </div>
+                <from actions="">
+                    <input type="text" class="from_search"placeholder="Поиск...">
+                    <input type="button" value="Найти" class="from_search_bth">
+                </from>
+                <from class="kostya">
+                    <div class="pp">
+                        <button class="exit"> Выйти </button>
+                        <span class="text_name">Константин К.</span>
+                    </div>
+                </from>
+                <from actions="" class="action_login">
+                    <button id="myBtn" class="form_login">Войти</button>
+                    </from>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="cont">
+                    <h2 class="text_enter">Вход</h2>
+                    <label for="uname"></label>
+                    <input type="text" class="login" placeholder="Логин" name="uname" required>
+     
+                    <label for="psw"></label>
+                    <input type="password" class="passw" placeholder="Пароль" name="psw" required>
+                        <input type="checkbox" class="check">
+                        <p class="text_check">Запомнить</p>
+                      
+                    <button id="baton" class="btn_modal" type="submit">Войти</button>
+                </div>
+            </div>
+        </div>
+                </from>
+            </header>
+            <nav>
+                <ul class="navigation_ul">
+                    <li><a href="http://127.0.0.1:5500/index.html">Фильмы</a></li>
+                    <li><a>Телеканалы</a></li>
+                </ul>
+            </nav>
+            <p class="new_movies">🔥Новинки</p>
+            <div class="movies">
+                <div class="movies_item">
+                    <img class="movies_img" src="img/cat.png" alt="cat">
+                    <p class="movies_item_p">Мульт в кино. Выпуск №103. Некогда грустить!</p>
+                </div>
+                <div class="movies_item">
+                    <img class="movies_img" src="img/bat.png" alt="bat">
+                    <p class="movies_item_p">Новый Бэтмен</p>
+                </div>
+                <div class="movies_item_anim">
+                    <p class="disc"></p>
+                    <p class="movies_item_pt">Однажды... в Голливуде</p>
+                </div>
+                <div class="movies_item">
+                    <img class="movies_img" src="img/strip.png" alt="strip">
+                    <p class="movies_item_p">Стриптизёрши</p>
+                </div>
+            </div>
+            <div>
+                <p class="jan">Жанры</p>
+                <div class="janri">
+                    <div class="janr1 janr_all">
+                        <div class="emoji">😁</div>
+                        <div class="janr_item">Комедии</div>
+                    </div>
+                    <div class="janr2 janr_all">
+                        <div class="emoji">😭</div>
+                        <div class="janr_item">Драмы</div>
+                    </div>
+                    <div class="janr3 janr_all">
+                        <div class="emoji">👽</div>
+                        <div class="janr_item">Фантастика</div>
+                    </div>
+                    <div class="janr4 janr_all">
+                        <div class="emoji">👻</div>
+                        <div class="janr_item">Ужасы</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+           <div class="background">
+                <div class="footer_items item">
+                    <div class="item__img"><img src="./img/Vector.svg" alt="" class="item__img-vector"></div>
+                    <div class="item__text text">
+                    <div class="item_adress">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</div>
+                        <div class="text__phone">+7 (3412) 93-88-61, 43-29-29</div>
+                        <a class="text__description">htc-cs.ru</a>
+                    </div>
+                </div>
+           </div>
+        </footer>
+    </body>
+    <script src="./script.js"></script>
+    </html>
